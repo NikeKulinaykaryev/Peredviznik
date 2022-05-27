@@ -1,0 +1,109 @@
+body {
+  background-image: url("menu.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+  font-size: 11pt; /* Размер основного шрифта в пунктах  */
+  background-color: #C0C0C0; /* Цвет фона веб-страницы */
+  color: #333; /* Цвет основного текста */ 
+}
+
+h1{
+  font-family: Verdana;
+  display: inline-block;
+  margin: 0 auto;   /* Левый отступ */ 
+  font-weight: 600;  /* Толщина */ 
+  text-transform: uppercase; /* Текст заглавными */ 
+  text-align: center; /* Выравнивание по центру */ 
+  font-size: 7vw;  
+  line-height: 60%;
+  padding: 100px 0;
+  animation: background 20s linear infinite;
+  
+  background: linear-gradient(90deg, rgba(255, 165, 0,1) 0%,rgba(40,40,40,1) 10%,rgba(28,147,46,1) 20%,rgba(74,165,168,1) 30%,rgba(89,90,165,1) 40%,rgba(84,16,67,1) 50%,rgba(28,58,63,1) 60%,rgba(82,175,183,1) 70%,rgba(78,170,76,1) 80%,rgba(150,48,30,1) 90%,rgba(199,201,88,1) 100%);
+  background-size: 1000% 100%;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.color_1 {
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 0;
+    position: absolute;
+    top: 1100px;
+    left: 80%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.color_2 {
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 0;
+    position: absolute;
+    top: 1350px;
+    left: 80%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.color_4 {
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 0;
+    position: absolute;
+    top: 1600px;
+    left: 80%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.text_1 {
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 0;
+    position: absolute;
+    top: 1100px;
+    left: 30%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-45%, -50%);
+}
+
+.text_2 {
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 0;
+    position: absolute;
+    top: 1350px;
+    left: 30%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-43%, -50%);
+}
+
+.text_3 {
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 0;
+    position: absolute;
+    top: 1600px;
+    left: 30%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-45%, -50%);
+}
+
+.end {
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 0;
+    position: absolute;
+    top: 1750px;
+    left: 70%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
